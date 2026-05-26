@@ -12,7 +12,7 @@ const Hero = () => {
                         <SlideUp className="hero-content position-relative">
                             <h3><i className="ri-shield-check-line" />Built for platforms. Trusted by operators.</h3>
                             <h2>Background Checks That Move as Fast as Your Platform Does.</h2>
-                            <p>Chekquik is the background check API built for marketplaces and platforms. Integrate in minutes, get results in minutes, and onboard workers without the wait.</p>
+                            <p>Chekquik is the background check solution built for marketplaces and platforms. Integrate in minutes, get results in minutes, and onboard workers without the wait.</p>
                             <div className="hero-btns">
                                 <Linkscroll smooth={true} to="pricing" className="theme-btn">See Pricing</Linkscroll>
                                 <Linkscroll smooth={true} to="book" className="theme-btn differenct-color" style={{color: '#000', background: '#fff', border: '2px solid #000'}}>Get a free demo</Linkscroll>
