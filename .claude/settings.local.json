@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\chekquik\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\chekquik\\\\app\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\chekquik\\\\public\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\src\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\public\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\src\\\\app\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\src\\\\components\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\src\\\\assets\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\saahi\\\\Downloads\\\\designpro-next-js-design-agency-template-2025-12-13-01-06-48-utc\\\\designpro\\\\src\\\\utils\" -Force | Select-Object Name, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"Folder\"}else{\"File\"}}} | Sort-Object Type, Name)",
+      "PowerShell(head *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Move-Item *)",
+      "PowerShell(npm install *)",
+      "PowerShell(npm uninstall *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(npm run *)",
+      "Bash(npm run *)",
+      "Bash(npx plugins *)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80\" -o public/images/services/service1.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80\" -o public/images/services/service2.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80\" -o public/images/services/service3.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80\" -o public/images/projects/work7.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80\" -o public/images/projects/work1.jpg)",
+      "Bash(curl -sL \"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&q=80\" -o public/images/testimonials/author2.jpg)",
+      "Bash(git add *)"
+    ]
+  }
+}
